@@ -22,6 +22,7 @@ def main():
     #    thus MUTATING the LIST (because an ELEMENT in it was ASSIGNED).
     # ------------------------------------------------------------------
     numbers = [45, 100, 8]
+    print(numbers)
     numbers[2] = 99
     print(numbers)  # To see that the INSIDES of   numbers   has changed
 
