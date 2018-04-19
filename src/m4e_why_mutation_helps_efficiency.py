@@ -23,8 +23,8 @@ def main():
     #    number_of_copy_and_changes_to_perform
     # to see what happens in larger cases.
     # ------------------------------------------------------------------
-    number_of_mutations_to_perform = 1000
-    number_of_copy_and_changes_to_perform = 1000
+    number_of_mutations_to_perform = 2000
+    number_of_copy_and_changes_to_perform = 2000
 
     zeros1 = make_list(number_of_mutations_to_perform)
     zeros2 = make_list(number_of_copy_and_changes_to_perform)
@@ -92,5 +92,6 @@ def copy_and_change_list(numbers):
 # If this module is running at the top level (as opposed to being
 # imported by another module), then call the 'main' function.
 # ----------------------------------------------------------------------
+
 if __name__ == '__main__':
     main()

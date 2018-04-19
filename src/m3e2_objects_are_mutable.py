@@ -26,6 +26,7 @@ def main():
     #      its INSTANCE VARIABLES was ASSIGNED a new value).
     # ------------------------------------------------------------------
     point = rg.Point(45, 100)
+    print(point)
     point.y = 33
     print(point)  # To see that the INSIDES of   point   has changed
 
@@ -43,6 +44,7 @@ def main():
     # This is ASSIGNMENT and NOT mutation.
     # ------------------------------------------------------------------
     point2 = point
+    print(point2)
     point = rg.Point(10, 6)
 
     print(point, point2)  # Prints the two DIFFERENT zg.Points

@@ -7,7 +7,7 @@ Authors: David Mutchler, Amanda Stouder, Chandan Rupakheti, Katie Dion,
          and their colleagues.
 """
 # ----------------------------------------------------------------------
-# Students: Read and run this program in the debugger to watch attemps
+# Students: Read and run this program in the debugger to watch attempts
 #           to mutate a TUPLE and a STRING cause run-time errors.
 # ----------------------------------------------------------------------
 
